@@ -14,3 +14,11 @@ function calcAge(age) {
 
 console.log("If you are 31 years old, you are " + calcAge(31) + " days old");
 console.log("If you are 30 years old, you are " + calcAge(30) + " days old");
+
+//Write a function that converts hours into seconds.
+
+function howManySeconds(hours) {
+    return (hours * 60) * 60;
+}
+
+console.log("This is how many seconds in 3 hours. Seconds = " + howManySeconds(3));
