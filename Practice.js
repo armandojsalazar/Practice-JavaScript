@@ -22,3 +22,11 @@ function howManySeconds(hours) {
 }
 
 console.log("This is how many seconds in 3 hours. Seconds = " + howManySeconds(3));
+
+//Write a function that takes the base and height of a triangle and return its area.
+
+function triArea(base, height) {
+    return (base * height)/2;
+}
+
+console.log("The area of a triangle with a base of 8 and height of 4 equals " + triArea(8, 4));
