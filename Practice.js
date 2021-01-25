@@ -30,3 +30,12 @@ function triArea(base, height) {
 }
 
 console.log("The area of a triangle with a base of 8 and height of 4 equals " + triArea(8, 4));
+
+//There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+
+function remainder(x, y) {
+    num = x % y;
+    return num;
+}
+
+console.log("The remainder of 5 divided by 9 equals " + remainder(5, 9));
