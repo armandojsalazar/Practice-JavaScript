@@ -39,3 +39,11 @@ function remainder(x, y) {
 }
 
 console.log("The remainder of 5 divided by 9 equals " + remainder(5, 9));
+
+//create a function that can square a number.
+
+function squared(a) {
+    return a * a
+}
+
+console.log("5 squared equals " + squared(5));
