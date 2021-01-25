@@ -3,3 +3,14 @@
 function addUp(num) {
     return (num * (num + 1))/2;
 }
+
+console.log("The total equals = " + addUp(15));
+
+//Create a function that takes the age and return the age in days.
+
+function calcAge(age) {
+    return	age * 365;
+}
+
+console.log("If you are 31 years old, you are " + calcAge(31) + " days old");
+console.log("If you are 30 years old, you are " + calcAge(30) + " days old");
